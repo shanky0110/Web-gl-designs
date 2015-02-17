@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=League+Script|Josefin+Slab);
+html {
+  height: 100%;
+  width: 100%;
+}
+html * {
+  transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  font-family: "Josefin Slab", cursive;
+  text-transform: uppercase;
+  background: url("http://opi.com/sites/default/files/collection-fiftyshades-gallery_0.jpg") no-repeat 0 0 transparent;
+  background-size: cover;
+  overflow: hidden;
+}
+
+div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, .fa {
+  font-size: 3em !important;
+  text-align: center;
+  top: 40%;
+  position: relative;
+}
+
+.fa {
+  font-size: 10em !important;
+  display: block;
+}
+
+.up {
+  top: -10000px;
+}
+
+.down {
+  top: 10000px;
+}
+
+.right {
+  left: -10000px;
+}
+
+.left {
+  left: 10000px;
+}
+
+.red {
+  background: #9C0000;
+  color: white !important;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.purple {
+  background: purple;
+}
+
+.pink {
+  background: pink;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.white {
+  background: white;
+  color: #9C0000 !important;
+}

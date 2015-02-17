@@ -1,0 +1,27 @@
+body {
+  background:url(http://eric-huguenin.com/build/css/img/bg_text_white.jpg);
+}
+
+.border, 
+.inside {
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin:auto;
+}
+
+.border {
+  animation:borderAnim 300s linear infinite
+}
+@keyframes borderAnim {
+  to {transform:rotate(360deg);}
+}
+
+.inside {
+  animation:insideAnim 60s linear infinite
+}
+@keyframes insideAnim {
+  to {transform:rotate(-360deg);}
+}
